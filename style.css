@@ -1,0 +1,213 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Georgia, serif;
+}
+
+body{
+  background:#0f0f0f;
+  color:#f5f5f5;
+}
+
+nav{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:22px 90px;
+  background:rgba(0,0,0,0.85);
+  position:sticky;
+  top:0;
+}
+
+.logo{
+  display:flex;
+  align-items:center;
+  gap:12px;
+}
+
+.logo img{
+  width:38px;
+}
+
+.logo span{
+  font-size:24px;
+  font-weight:bold;
+}
+
+nav ul{
+  list-style:none;
+  display:flex;
+  gap:35px;
+}
+
+nav ul li{
+  cursor:pointer;
+  opacity:0.85;
+}
+
+.hero{
+  height:90vh;
+  background:url("https://images.unsplash.com/photo-1505693416388-ac5ce068fe85") center/cover;
+  display:flex;
+  align-items:center;
+  padding:0 90px;
+}
+
+.hero-text{
+  max-width:520px;
+}
+
+.hero-text h1{
+  font-size:56px;
+  margin-bottom:20px;
+}
+
+.hero-text p{
+  font-size:18px;
+  opacity:0.85;
+  margin-bottom:30px;
+}
+
+.hero-text button{
+  padding:16px 40px;
+  background:#caa24d;
+  border:none;
+  border-radius:30px;
+  color:black;
+  font-size:16px;
+}
+
+.about{
+  display:flex;
+  align-items:center;
+  gap:70px;
+  padding:120px 90px;
+}
+
+.about img{
+  width:45%;
+  border-radius:25px;
+}
+
+.about-text h2{
+  font-size:42px;
+  margin-bottom:20px;
+}
+
+.about-text p{
+  font-size:18px;
+  opacity:0.85;
+}
+
+.rooms{
+  padding:120px 90px;
+  text-align:center;
+}
+
+.rooms h2{
+  font-size:40px;
+  margin-bottom:70px;
+}
+
+.room-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:45px;
+}
+
+.room{
+  background:#141414;
+  padding:35px;
+  border-radius:25px;
+}
+
+.room img{
+  width:100%;
+  height:220px;
+  object-fit:cover;
+  border-radius:20px;
+  margin-bottom:20px;
+}
+
+.experience{
+  display:flex;
+  align-items:center;
+  gap:70px;
+  padding:120px 90px;
+}
+
+.experience img{
+  width:45%;
+  border-radius:25px;
+}
+
+.experience-text h2{
+  font-size:42px;
+  margin-bottom:20px;
+}
+
+.experience-text p{
+  font-size:18px;
+  opacity:0.85;
+  margin-bottom:25px;
+}
+
+.experience-text ul{
+  list-style:none;
+  display:grid;
+  gap:12px;
+}
+
+.testimonials{
+  padding:120px 90px;
+  background:#141414;
+  text-align:center;
+}
+
+.testimonials h2{
+  font-size:38px;
+  margin-bottom:60px;
+}
+
+.testimonial-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:45px;
+}
+
+.testimonial{
+  background:#0f0f0f;
+  padding:40px;
+  border-radius:25px;
+}
+
+.cta{
+  padding:120px 90px;
+  text-align:center;
+}
+
+.cta h2{
+  font-size:44px;
+  margin-bottom:20px;
+}
+
+.cta p{
+  font-size:18px;
+  opacity:0.8;
+  margin-bottom:30px;
+}
+
+.cta button{
+  padding:18px 45px;
+  background:#caa24d;
+  border:none;
+  border-radius:35px;
+  font-size:17px;
+}
+
+footer{
+  padding:35px;
+  text-align:center;
+  opacity:0.6;
+}
